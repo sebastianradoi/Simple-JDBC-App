@@ -16,7 +16,7 @@ public class MainService {
     private Connection con;
     private String user = "root";
     private String pass = "";
-    private String url = "jdbc:mysql://localhost/SebiCurs8";
+    private String url = "jdbc:mysql://localhost/simplejdbc";
 
     private static MainService ourInstance = new MainService();
 

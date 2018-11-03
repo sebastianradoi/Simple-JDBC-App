@@ -48,6 +48,7 @@ public class MainFrame {
     private void initComponents(){
         frame = new JFrame("Application");
         frame.setContentPane(this.mainPanel);
+        frame.setSize(500,500);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
     }
